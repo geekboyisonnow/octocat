@@ -7,3 +7,70 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+/*img {
+  
+}*/
+
+.logo {
+  border: 1px solid green;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.space {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.img {
+  display: flex;
+
+  width: 25;
+}
+
+/*.pic {
+  height: 500px;
+  width: 500px;
+}*/
+
+.display {
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  * {
+    border: 1px dotted pink;
+    header {
+    }
+  }
+}
