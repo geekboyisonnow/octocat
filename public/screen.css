@@ -4,16 +4,20 @@ html {
 
 body {
   margin: 0;
-  min-height: 100%;
-  font: 16px / 1 sans-serif;
+  height: 100%;
+  font: 13px helvetica, arial, freesans, clean, sans-serif;
 }
 
-/*img {
-  
-}*/
+main {
+  margin: 0;
+}
 
+header {
+  padding-right: 25px;
+  padding-left: 25px;
+}
 .logo {
-  border: 1px solid green;
+  border: 1px solid red;
   padding: 10px;
 }
 
@@ -24,53 +28,125 @@ ul {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-
+  justify-content: space-evenly;
+  word-wrap: inherit;
   width: 100%;
+  font-weight: bold;
 }
 
 .list {
-  display: flex;
-  width: 40%;
-  justify-content: space-between;
+  margin-right: 88px;
+  /*display: flex;
+  width: 25%;
+  justify-content: space-between;*/
 }
 
 header {
   width: 100%;
-  background-color: lightgrey;
+  background-color: rgb(241, 240, 240);
 }
 
 .space {
   display: flex;
   align-content: space-between;
   justify-content: space-between;
+  padding: 5px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  border-top: 1px dotted #cacaca;
+  padding: 10px;
+  width: 92%;
+  margin: 50px;
 }
 
-.img {
+.center {
+  justify-content: center;
+}
+
+.foot {
   display: flex;
-
-  width: 25;
+  justify-content: space-between;
 }
 
-/*.pic {
-  height: 500px;
-  width: 500px;
-}*/
+.foot p {
+  margin-right: 25px;
+  margin-left: 0;
+}
 
 .display {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px dotted #cacaca;
+}
+
+.underline {
+  border-bottom: 1px dotted #cacaca;
+}
+
+.title img {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.title span {
+  color: #777;
+}
+
+.title b {
+  font-weight: bold;
+  color: #333;
+}
+
+.title p {
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 600px) {
   * {
     border: 1px dotted pink;
-    header {
+    .space {
+      display: flex;
+      flex-direction: column;
+    }
+    .display {
+      margin-left: 0;
     }
   }
+}
+
+p {
+  color: #cacaca;
+}
+
+.border {
+  border: 1px dotted #cacaca;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+footer {
 }
