@@ -17,7 +17,6 @@ header {
   padding-left: 25px;
 }
 .logo {
-  border: 1px solid red;
   padding: 10px;
 }
 
@@ -122,8 +121,7 @@ header {
 
 @media (max-width: 600px) {
   * {
-    border: 1px dotted pink;
-    .space {
+    header {
       display: flex;
       flex-direction: column;
     }
