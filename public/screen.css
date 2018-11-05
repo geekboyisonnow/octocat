@@ -17,6 +17,10 @@ header {
   padding-left: 25px;
 }
 .logo {
+<<<<<<< HEAD
+=======
+  border: 1px solid red;
+>>>>>>> 851a5b8bb61e33c95d66764eca6d271ed6c50668
   padding: 10px;
 }
 
@@ -121,7 +125,12 @@ header {
 
 @media (max-width: 600px) {
   * {
+<<<<<<< HEAD
     header {
+=======
+    border: 1px dotted pink;
+    .space {
+>>>>>>> 851a5b8bb61e33c95d66764eca6d271ed6c50668
       display: flex;
       flex-direction: column;
     }
